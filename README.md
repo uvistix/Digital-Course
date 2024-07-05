@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Digital Course Selling Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Welcome to the Digital Course Selling Landing Page project, a seamless platform for selling and accessing digital courses. Built with React.js, Firebase, Cashfree payment gateway, and Node.js with Express, this application ensures a smooth user experience from payment to course access.
 
-## Available Scripts
+## Features
+Landing Page: Informative and engaging landing page with integrated payment gateway.<br>
+Payment Integration: Secure payments through Cashfree payment gateway.<br>
+User Authentication: Automatic account creation upon successful payment using Firebase Authentication.<br>
+Course Access: Users can access purchased courses for 365 days using their email and password.<br>
+Backend: Node.js with Express, deployed on Firebase Functions, handles payment processing.<br>
+Database: User subscription details stored in Firebase Database.
 
-In the project directory, you can run:
+## Technology Stack
+Frontend: React.js<br>
+Backend: Node.js with Express, Firebase Functions<br>
+Payment Gateway: Cashfree<br>
+Authentication and Database: Firebase
 
-### `npm start`
+## Dependencies
+"dependencies": {
+    "@cashfreepayments/cashfree-js": "^1.0.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.1.3",
+    "cashfree-pg": "^4.1.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "helmet": "^7.1.0",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-countup": "^6.2.0",
+    "react-dom": "^18.1.0",
+    "react-modal": "^3.16.1",
+    "react-modal-video": "^2.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.77.5",
+    "swiper": "^8.2.2",
+    "web-vitals": "^2.1.4"
+  }
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Functionalities
+#### Landing Page
+User Signup and Payment: Users can sign up and make payments through the Cashfree payment gateway.<br>
+Account Creation: Upon successful payment, user accounts are created using Firebase Authentication.<br>
+Subscription Details: User subscription details are stored in Firebase Database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Course Access
+Login: Users can log in with their email and password to access purchased courses.<br>
+Course Availability: Courses are accessible for 365 days from the date of purchase.
 
-### `npm test`
+#### Admin Features
+Payment Processing: Handled by Node.js with Express, deployed on Firebase Functions.<br>
+Secure Transactions: Integration with Cashfree ensures secure payment processing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contribution
+Contributions are welcome! Please fork the repository and submit a pull request.
 
-### `npm run build`
+## License
+This project is licensed under the MIT License.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any inquiries, please contact connectyuvarajs@gmail.com.
